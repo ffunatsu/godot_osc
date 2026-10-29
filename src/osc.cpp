@@ -5,6 +5,7 @@
 #include <godot_cpp/classes/packet_peer_udp.hpp>
 #include <godot_cpp/core/class_db.hpp>
 
+#include <vector>
 #include <memory>
 
 using namespace godot;

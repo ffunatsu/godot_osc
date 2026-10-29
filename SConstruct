@@ -11,7 +11,7 @@ AddOption(
 )
 
 # TODO: Do not copy environment after godot-cpp/test is updated <https://github.com/godotengine/godot-cpp/blob/master/test/SConstruct>.
-env = SConscript("godot-cpp/SConstruct")
+env = SConscript("godot-cpp/SConstruct", {"api_version": "4.3"})
 
 # Add source files.
 env.Append(CPPPATH=["src/"])
